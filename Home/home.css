@@ -1,0 +1,294 @@
+* {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+body {
+
+    background-image: linear-gradient(rgba(22, 19, 19, 0),rgba(0, 0, 0, 0.39),rgba(73, 35, 35, 0.527)), url(../Assets/f1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* header style (start) */
+
+header {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px !important;
+    padding: 10px !important;
+    background-color: transparent;
+}
+
+.custom-nav-list {
+
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+}
+
+.brand-h2 {
+
+    font-family: "cooper";
+    font-size: 30px;
+    color: transparent;
+    -webkit-text-stroke: 2px gold;
+}
+
+.brand-h2 span {
+
+    position: relative;
+    bottom: 15px;
+}
+
+.logo-img {
+
+    height: 55px;
+    width: 55px;
+}
+
+.custom-nav-link {
+
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-family: "flamenco";
+    font-size: 20px;
+    transition: all ease-in-out;
+}
+
+.custom-nav-link:hover {
+
+    transition: 0.3s;
+    color: gold;
+    border-bottom: 2px solid gold;
+    padding: 5px !important;
+}
+
+/* header style (end) */
+
+menu {
+
+    display: none;
+}
+
+/* main section style (start) */
+
+.mother {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.title {
+
+    font-family: "cooper";
+    font-size: 60px;
+    color: transparent;
+    -webkit-text-stroke: 2px gold;
+    text-align: center;
+    animation: titleslide-y 3s  0s 1;
+}
+@keyframes titleslide-y {
+    0%{
+        transform: translateX(-300px);
+    }
+}
+
+.sub-title {
+
+    font-family: "flamenco";
+    font-size: 32px !important;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    animation: sub-titleslide-y 5s  0s 1;
+}
+@keyframes sub-titleslide-y {
+    0%{
+        transform: translateX(300px);
+    }
+}
+
+.btn-lunch-wrapper {
+
+    text-align: center;
+    margin-top: 10px !important;
+}
+
+.btn-lunch-wrapper button {
+
+    padding: 10px 20px !important;
+    background-color: transparent;
+    border: 2px solid gold;
+    border-radius: 5px;
+    color: white;
+    transition: all ease;
+    animation: sub-titleslide-y 5s  0s 1;
+}
+
+.btn-lunch-wrapper button:hover {
+
+    background-color: gold;
+    border: 0px solid;
+    color: white;
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+
+/* main section style (end) */
+
+@media (max-width: 799px) {
+
+    body {
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.199),rgba(10, 2, 2, 0.651),rgba(0, 0, 0, 0.315)), url(../Assets/f1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+      /*  animation: change-bg 10s  ease-in-out; */
+        
+    }
+
+    @keyframes change-bg {
+     0% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.199),rgba(10, 2, 2, 0.651),rgba(0, 0, 0, 0.315)), url(../Assets/1.jpg);
+        transition: 0.3s;
+     } 
+     50% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.199),rgba(10, 2, 2, 0.651),rgba(0, 0, 0, 0.315)), url(../Assets/2.jpg);
+        transition: 0.3s;
+     }  
+    }
+
+    menu {
+
+        display: block;
+    }
+
+    header {
+
+        display: none;
+    }
+    /* nav menu style (start) */
+    .bts-nav-menu {
+
+        background-color: #523706 !important;
+        padding: 10px !important;
+       
+    }
+
+    .bts-brand-link {
+
+        font-family: "cooper" !important;
+        font-size: 30px !important;
+        color: transparent !important;
+        -webkit-text-stroke: 2px gold !important;
+        
+    }
+
+    
+
+    .bts-logo-img {
+
+        height: 105px;
+        width: 105px;
+    }
+
+    .bts-nav-list {
+
+        margin-bottom: 15px !important;
+    }
+
+    .bts-nav-link {
+
+        color: white !important;
+        transition: all ease !important;
+    }
+
+    .bts-nav-link:hover {
+
+        transition: 0.2s !important;
+        color: gold !important;
+        
+    }
+
+    /* nav menu style (end) */
+
+    /*main section style (start) */
+
+    .mother {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+        
+    }
+
+    .content {
+
+        text-align: center;
+       
+    }
+
+    .title {
+
+        font-family: "cooper";
+        font-size: 50px;
+        color: transparent;
+        -webkit-text-stroke: 2px gold;
+        word-wrap: break-word !important;
+        animation: titleslide-y 5s  0s 1;
+    }
+    @keyframes titleslide-y {
+        0%{
+            transform: translateX(-300px);
+        }
+    }
+
+    .sub-title {
+
+        font-family: "flameco";
+        font-size: 30px;
+        color: white;
+        font-weight: 200;
+        margin-bottom: 10px !important;
+        text-transform: uppercase;
+        animation: sub-titleslide-y 5s  0s 1;
+    }
+    @keyframes sub-titleslide-y {
+        0%{
+            transform: translateX(300px);
+        }
+    }
+
+    .btn-lunch-wrapper button {
+
+        padding: 10px 20px !important;
+        border: 2px solid gold;
+        background-color: transparent;
+        color: gold;
+        border-radius: 5px;
+        width: auto;
+        transition: all ease;
+        animation: sub-titleslide-y 5s  0s 1;
+    }
+
+    .btn-lunch-wrapper button:hover {
+
+        background-color: gold;
+        transition: 0.2s;
+        transform: scale(1.0);
+        color: white;
+    }
+
+}
