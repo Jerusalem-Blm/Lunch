@@ -1,0 +1,567 @@
+* {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+body {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.274),rgba(0, 0, 0, 0.651)), url(../Assets/f6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+
+menu {
+
+    display: none;
+}
+
+/* header style (start) */
+
+header {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center !important;
+    margin-top: 15px !important;
+    padding: 10px !important;
+    background-color: transparent;
+}
+
+.custom-nav-list {
+
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+}
+
+.brand-h2 {
+
+    font-family: "cooper";
+    font-size: 30px;
+    color: transparent;
+    -webkit-text-stroke: 2px gold;
+}
+
+.brand-h2 span {
+
+    position: relative;
+    top: 8px;
+    display: none;
+}
+
+.logo-img {
+
+    height: 55px;
+    width: 55px;
+}
+
+.custom-nav-link {
+
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-family: "flamenco";
+    font-size: 20px;
+    transition: all ease-in-out;
+}
+
+.custom-nav-link:hover {
+
+    transition: 0.3s;
+    color: gold;
+    border-bottom: 2px solid gold;
+    padding: 5px !important;
+}
+
+/* header style (end) */
+
+/* form-section style (start) */
+
+.section-1 {
+
+    display: none;
+}
+
+form {
+
+    background-color: transparent;
+    padding: 30px !important;
+    border-radius: 4px;
+    border: 2px solid white;
+}
+
+.contact_form-container {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 4em !important;
+}
+
+.con-icon {
+
+    text-align: center;
+}
+
+.con-icon img {
+
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    padding: 8px !important;
+    border-radius: 50%;
+}
+
+.con-text {
+
+    font-family: "cooper";
+    font-size: 30px;
+    color: gold;
+    text-align: center;
+}
+
+.con-para {
+
+    text-align: center;
+    font-size: 18px;
+    font-family: "arial";
+    color: white !important;
+}
+
+.input-field {
+
+    text-align: center;
+    margin-top: 20px !important;
+}
+
+input {
+
+    margin-bottom: 10px !important;
+    padding: 10px !important;
+    border: 2px dotted gold;
+}
+
+.btn-send-wrapper {
+
+    text-align: center;
+}
+
+.btn-send-wrapper button {
+
+    padding: 10px 20px !important;
+    border: 0px solid;
+    border-radius: 4px;
+    background-color: gold;
+    color: white;
+    transition: all ease;
+}
+
+.btn-send-wrapper button:hover {
+
+    transition: 0.2s;
+    background-color: darkgoldenrod;
+}
+
+/* form-section style (end) */
+
+/* footer style (start) */
+
+.ft-holder {
+
+    padding: 20px !important;
+    background-image:radial-gradient(rgba(7, 0, 0, 0.349),rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0)), url(../Assets/gallery_03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 6em !important;
+    
+}
+
+.ft-flex {
+
+    display: flex;
+    margin-top: 10px !important;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px !important;
+}
+
+.ft-logo {
+
+    text-align: center;
+}
+
+.ft-logo-h2 {
+
+    font-family: 'cooper';
+    font-size: 30px;
+    color: transparent;
+    -webkit-text-stroke: 2px gold;
+    
+}
+
+.ft-logo-h2 span {
+
+    position: relative;
+    bottom: 15px !important;  
+}
+
+.ft-logo-h2 span img {
+
+    height: 70px;
+    width: 70px;
+}
+
+.ft-pages {
+
+    margin-bottom: 10px !important;
+   
+}
+
+.ft-pages-title {
+
+    font-family: "cooper";
+    color: gold;
+}
+
+.ft-link-wrapper {
+
+    margin-top: 5px !important;
+}
+
+.ft-link {
+
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all;
+}
+
+.ft-link:hover {
+
+    transition: 0.3s;
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+.ft-contact {
+
+    margin-top: 10px !important;
+}
+
+.ft-contact-title {
+
+    font-family: "cooper";
+    color: gold;
+}
+
+.ft-location {
+
+    margin-top: 5px !important;
+    font-size: 18px;
+    color: white;
+}
+
+.ft-phone {
+
+    margin-top: 5px !important;
+    font-size: 18px;
+    color: white;
+}
+
+.ft-email, .ft-email-link {
+
+    margin-top: 5px !important;
+    text-decoration: none !important;
+    color: gold !important;
+}
+
+.ft-hours {
+
+    margin-top: 10px !important;
+}
+
+.open-hours {
+
+    font-family: "cooper";
+    color: gold;
+}
+
+.open-day {
+
+    margin-top: 5px !important;
+    color: white;
+}
+
+.open-time {
+
+    margin-top: 5px !important;
+    color: burlywood;
+}
+
+/* media icons style (start) */
+
+.media-icons-wrapper {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.md-icon img {
+
+    height: 20px;
+    width: 20px;
+}
+/* media icons style (end) */
+
+/* footer-text-zone style (start) */
+
+.ft-text-zone {
+
+    text-align: center;
+    margin-top: 10px !important;
+}
+
+.copy {
+
+    font-size: 12px;
+    font-family: "arial";
+    color: white;
+}
+
+.credit {
+
+    color: white;
+    margin-top: 10px !important;
+}
+
+.credit a {
+
+    text-decoration: underline;
+    color: gold;
+}
+
+/* footer-text-zone style (end) */
+
+
+/* footer style (end) */
+
+
+
+
+@media (max-width:799px) {
+
+    body {
+
+        background-color: white !important;
+    }
+
+    menu {
+
+        display: block;
+    }
+
+    header {
+
+        display: none;
+    }
+    /* nav menu style (start) */
+    .bts-nav-menu {
+
+        background-color: #523706 !important;
+        padding: 10px !important;
+       
+    }
+
+    .bts-brand-link {
+
+        font-family: "cooper" !important;
+        font-size: 30px !important;
+        color: transparent !important;
+        -webkit-text-stroke: 2px gold !important;
+        
+    }
+
+    
+
+    .bts-logo-img {
+
+        height: 105px;
+        width: 105px;
+    }
+
+    .bts-nav-list {
+
+        margin-bottom: 15px !important;
+    }
+
+    .bts-nav-link {
+
+        color: white !important;
+        transition: all ease !important;
+    }
+
+    .bts-nav-link:hover {
+
+        transition: 0.2s !important;
+        color: gold !important;
+  
+    }
+
+    /* nav menu style (end) */
+
+    
+    /* section-1 style (start) */
+
+    .section-1 {
+
+        display: block;
+    }
+
+    .mother-1 {
+
+        background-image: url(../Assets/reserve_4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+        
+        
+    }
+
+    .content {
+
+        background-color: rgba(0, 0, 0, 0.651);
+        padding: 50px !important;
+        
+        margin: 0px !important;
+    }
+
+    .con-title {
+
+        text-align: center;
+        font-family: "cooper";
+        font-size: 30px;
+        word-wrap: break-word;
+        animation: slide-y 1.8s ease-in 0s 1 normal;
+    }
+    @keyframes slide-y {
+        0%{
+            transform: translateX(-300px);
+        }
+    }
+
+    .con-title a {
+
+        text-decoration: none;
+        color: gold;
+        border-bottom: 2px solid;
+        
+    }
+    /* section-1 style (end) */
+
+    /* form section style (start) */
+
+    .form-section {
+
+        animation: slide-y 1.8s ease-in 0s 1 normal;
+    }
+
+    form {
+
+        background-color: transparent !important;
+        padding: 0px !important;
+        border-radius: 0px;
+        border: 0px solid;
+    }
+
+    .contact_form-container {
+
+        margin: 2em !important;
+        display: block;
+        background-color: transparent !important;
+    }
+
+    .con-icon {
+
+        text-align: center;
+        
+    }
+
+    .con-icon img {
+
+        height: 60px;
+        width: 60px;
+        background-color: white;
+        padding: 8px !important;
+        border-radius: 50%;
+    }
+
+    .con-text {
+
+        font-size: 24px;
+        font-family: "flamenco" !important;
+        font-weight: 900;
+        color: gold;
+        text-align: center;
+    }
+
+    .icon-title-container p {
+
+        text-align: center;
+        margin-bottom: 10px !important;
+    }
+
+    .input-field div input {
+
+        padding: 10px !important;
+        border: 2px dotted gold;
+        border-radius: 4px;
+        margin-bottom: 10px !important;
+        background-color: white;
+        width: 100%;
+
+    }
+
+    textarea {
+
+        width: 100%;
+    }
+
+    .btn-send-wrapper {
+
+        text-align: center;
+    }
+
+    .btn-send-wrapper button {
+
+        padding: 10px 20px !important;
+        border: 0px solid;
+        background-color: gold;
+        border-radius: 4px;
+        color: white;
+        
+    }
+
+    /* form-section style (end) */
+
+       /* footer style (start) */
+
+       .ft-flex {
+
+        display: block;
+        margin-top: 10px !important;
+        margin-bottom: 15px !important;
+    }
+
+    /* footer style (end) */
+
+
+
+
+   
+}
